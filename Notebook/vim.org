@@ -1,0 +1,20 @@
+* vim 
+** usage method
+   i 所在字母前输入
+   a 所在字母后输入
+   shift+a 行尾插入
+   shift+i 行前插入
+   o 本行下一行插入
+   shift+0上行插入
+   
+** config
+   1.set number 显示行号
+   2.noremap    修改键位 noremap h e 用h键替换成e
+   3.map <some> 定义快捷键
+   4.map s <nop> : nop=no operation
+   5.map Q :q<CR>:CR=回车
+   6.:source $MYVIMRC 从新加载文件不用推出文件
+   7.f+字母 寻找字母
+     d+f+: 删除到：的字符串
+   8.zz 到中间位置
+   
